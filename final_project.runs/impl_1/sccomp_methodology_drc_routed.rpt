@@ -1,0 +1,437 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Wed Jan 23 12:07:28 2019
+| Host         : LAPTOP-8R3L9GDR running 64-bit major release  (build 9200)
+| Command      : report_methodology -file sccomp_methodology_drc_routed.rpt -rpx sccomp_methodology_drc_routed.rpx
+| Design       : sccomp
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 80
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-16 | Warning  | Large setup violation         | 64         |
+| TIMING-18 | Warning  | Missing input or output delay | 1          |
+| TIMING-20 | Warning  | Non-clocked latch             | 15         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.767 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_24_29/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.767 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_24_29/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.949 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_18_23/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.968 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_24_29/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.970 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_12_17/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.977 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_12_17/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.989 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_24_29/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.997 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_18_23/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -2.009 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_6_11/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -2.040 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_24_29/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -2.048 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_24_29/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -2.081 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_12_17/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -2.088 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_12_17/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -2.108 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_18_23/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -2.117 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_12_17/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -2.127 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_6_11/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -2.127 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_6_11/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -2.131 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_6_11/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -2.137 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_12_17/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -2.139 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_18_23/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -2.150 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_6_11/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -2.154 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_0_5/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -2.172 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_0_5/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -2.176 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_24_29/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -2.178 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_18_23/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -2.180 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_6_11/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -2.182 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_24_29/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -2.187 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_18_23/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -2.226 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_0_5/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -2.251 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_18_23/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -2.254 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_24_29/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -2.255 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_12_17/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -2.256 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_6_11/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -2.262 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_12_17/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -2.266 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_0_5/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -2.269 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_0_5/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -2.278 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_12_17/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -2.286 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_18_23/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -2.299 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_12_17/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -2.314 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_18_23/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -2.322 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_0_5/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -2.324 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_24_29/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -2.326 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_30_31/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -2.336 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_6_11/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -2.338 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_30_31/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -2.343 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_24_29/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -2.348 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_0_5/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -2.356 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_18_23/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -2.367 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_6_11/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -2.368 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_6_11/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -2.378 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_18_23/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -2.385 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_6_11/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -2.391 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_18_23/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -2.396 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_24_29/RAMB_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#55 Warning
+Large setup violation  
+There is a large setup violation of -2.405 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_6_11/RAMB/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#56 Warning
+Large setup violation  
+There is a large setup violation of -2.407 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_0_5/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#57 Warning
+Large setup violation  
+There is a large setup violation of -2.414 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_30_31/RAMA_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#58 Warning
+Large setup violation  
+There is a large setup violation of -2.431 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_12_17/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#59 Warning
+Large setup violation  
+There is a large setup violation of -2.440 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_30_31/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#60 Warning
+Large setup violation  
+There is a large setup violation of -2.447 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_0_5/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#61 Warning
+Large setup violation  
+There is a large setup violation of -2.453 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_12_17/RAMC/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#62 Warning
+Large setup violation  
+There is a large setup violation of -2.457 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_0_5/RAMA/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#63 Warning
+Large setup violation  
+There is a large setup violation of -2.545 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r2_0_31_0_5/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#64 Warning
+Large setup violation  
+There is a large setup violation of -2.551 ns between sccpu/pc_reg/pc_reg[6]/C (clocked by sys_clk_pin) and sccpu/registerfile/RAM_reg_r1_0_31_0_5/RAMC_D1/I (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on clrn relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch finish_reg cannot be properly analyzed as its control pin finish_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/aluc_reg[0] cannot be properly analyzed as its control pin sccpu/cntrol_reg/aluc_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/aluc_reg[1] cannot be properly analyzed as its control pin sccpu/cntrol_reg/aluc_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/aluc_reg[2] cannot be properly analyzed as its control pin sccpu/cntrol_reg/aluc_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/aluc_reg[3] cannot be properly analyzed as its control pin sccpu/cntrol_reg/aluc_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/aluimm_reg cannot be properly analyzed as its control pin sccpu/cntrol_reg/aluimm_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/jal_reg cannot be properly analyzed as its control pin sccpu/cntrol_reg/jal_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/m2reg_reg cannot be properly analyzed as its control pin sccpu/cntrol_reg/m2reg_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/pcsrc_reg[0] cannot be properly analyzed as its control pin sccpu/cntrol_reg/pcsrc_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/pcsrc_reg[1] cannot be properly analyzed as its control pin sccpu/cntrol_reg/pcsrc_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/regrt_reg cannot be properly analyzed as its control pin sccpu/cntrol_reg/regrt_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/sext_reg cannot be properly analyzed as its control pin sccpu/cntrol_reg/sext_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/shift_reg cannot be properly analyzed as its control pin sccpu/cntrol_reg/shift_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/wmem_reg cannot be properly analyzed as its control pin sccpu/cntrol_reg/wmem_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch sccpu/cntrol_reg/wreg_reg cannot be properly analyzed as its control pin sccpu/cntrol_reg/wreg_reg/G is not reached by a timing clock
+Related violations: <none>
+
+

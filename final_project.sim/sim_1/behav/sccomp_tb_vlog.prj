@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/Mux_JalToWn.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/Mux_JalToWdata.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/Mux_WData.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/SignExtend.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/regfile.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/program_counter.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/Mux_regfile.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/Mux_Alub.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/Mux_Alua.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/Mux4to1.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/control.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/branch_adder.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/adder.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/data_mem.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/inst_mem.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/CPU.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sources_1/new/sccomp.v"
+verilog xil_defaultlib  "../../../final_project.srcs/sim_1/new/sccomp_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
